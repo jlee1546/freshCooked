@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: purple;
+    margin: 0;
+    height: 100vh;
+    
+    
+  }
+  .header {
+    background: violet;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    border: 2px solid black;
+    
+    
+  }
+  .logo {
+    display: inline-block;
+    width: 10%;
+    padding-left: 2rem;
+  }
+  .links {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+  }
+  .link  {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  .link a {
+    text-decoration: none;
+    color: black;
+  }
+  .cta {
+    background: white;
+    padding: 0.25rem;
+    border-radius: 8px;
+    border: purple solid;
+  }
+  .cta:hover,
+  .cat:active {
+    background: violet;
+    color: white;
+    border: transparent solid;
+    
+    
+  }
+  .intro {
+    background: white;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+    padding: 0.16rem;
+    width: 80vw;
+    
+    
+  }
+  .left {
+    width: 40%;
+    display: inline-block;
+    background: violet;
+    margin: 1rem;
+    border: 2px solid black;
+  }
+  .left h2 {
+    text-align: center;
+  }
+  .left p {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
