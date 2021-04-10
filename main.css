@@ -2,20 +2,23 @@
     box-sizing: border-box;
   }
   body {
-    background: purple;
+    background: url("images/woodGrain.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     height: 100vh;
     
     
   }
   .header {
-    background: violet;
+    background: rgba(99, 49, 3, 1);
     padding: 0.5rem;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     border: 2px solid black;
+    z-index: 2;
     
     
   }
@@ -45,7 +48,7 @@
   }
   .cta:hover,
   .cat:active {
-    background: violet;
+    background: rgb(223, 186, 118);
     color: white;
     border: transparent solid;
     
@@ -64,7 +67,7 @@
   .left {
     width: 40%;
     display: inline-block;
-    background: violet;
+    background: white;
     margin: 1rem;
     border: 2px solid black;
   }
@@ -74,4 +77,20 @@
   .left p {
     margin: 1rem;
     padding: 0.5rem;
+  }
+  .right {
+    display: inline-block;
+    background: orange;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 1rem;
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 10rem;
+    
+  }
+  
+  .right img {
+    width: 75%;
+    
   }
