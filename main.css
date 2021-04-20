@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("images/woodGrain.jpeg");
+    background: url("images/porchView.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -93,4 +93,7 @@
   .right img {
     width: 75%;
     
+  }
+  .flower {
+    text-align: right;
   }
